@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Galeria de Fotos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px auto;
+            max-width: 1000px;
+        }
+        .photo {
+            margin: 10px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+            border-radius: 5px;
+            overflow: hidden;
+            background-color: #fff;
+        }
+        .photo img {
+            max-width: 100%;
+            height: auto;
+        }
+        .photo-info {
+            padding: 10px;
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Minha Galeria de Fotos</h1>
+
+    <div class="gallery">
+        <div class="photo">
+            <img src="https://via.placeholder.com/400" alt="Foto 1">
+            <div class="photo-info">
+                <h2>Título da Foto 1</h2>
+                <p>Descrição da Foto 1.</p>
+            </div>
+        </div>
+        <div class="photo">
+            <img src="https://via.placeholder.com/400" alt="Foto 2">
+            <div class="photo-info">
+                <h2>Título da Foto 2</h2>
+                <p>Descrição da Foto 2.</p>
+            </div>
+        </div>
+        <!-- Adicione mais fotos aqui conforme necessário -->
+    </div>
+
+</body>
+</html>
